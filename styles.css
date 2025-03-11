@@ -1,0 +1,305 @@
+:root {
+    --header-image: url('./assets/piccies/repositorieheader.png');
+    --body-bg-image: url('./assets/piccies/rainbowbackground.png');
+
+    /* colors */
+    --content: #e6fbff;
+}
+
+/* fonts */
+.knewave-regular {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.shizuru-regular {
+    font-family: "Shizuru", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1,
+h2,
+h3 {
+    color: #ED64F5;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+strong {
+    color: #ED64F5;
+}
+
+
+/* bodyodyody */
+  
+
+body {
+    font-family: "Shizuru", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: #e6fbff;
+    /* you can delete the line below if you'd prefer to not use an image */
+    background-size: contain;
+    color: #873b8b;
+    background-image: var(--body-bg-image);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* layout */
+
+#container {
+    max-width: 1100px;
+ 
+    margin: 0 auto;
+}
+#topBar {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: #ffb8ee;
+    text-align: center;
+    
+}
+
+#container a {
+    color: #ED64F5;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+#header {
+    width: 100%;
+    background-color: #fffcde;
+    height: 150px;
+    background-image: var(--header-image);
+    background-size: cover;
+}
+
+/* nav section!! */
+#navbar {
+    height: 40px;
+    background-color: #fffcde;
+    /* navbar color */
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+
+#navbar li {
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+/* nav links*/
+#navbar li a {
+    color: #ED64F5;
+    font-weight: 800;
+
+}
+
+/* hover */
+#navbar li a:hover {
+    color: #37b5be;
+    font-size: x-large;
+
+}
+
+#flex {
+    display: flex;
+}
+
+/* sidebar */
+aside {
+    background-color: #fffcde;
+    width: 200px;
+    padding: 20px;
+    font-size: smaller;
+}
+
+/* updates sidebar box */
+.box {
+    background-color: #fff698 ;
+    color: #873b8b;
+    font-family: "knewave", system-ui;
+    border: 5px solid #ffb8ee;
+    padding: 10px;
+}
+
+/* DJ */
+
+
+#musicplayer{
+    background:#fffff3; /* background color of player */
+    border:1px solid #ffb8ee; 
+    width:160px; /* width of the player */
+
+}
+
+.songtitle{
+    padding:5px;
+    display:block;
+    color: #873b8b;
+    font-family: "knewave", system-ui;
+}
+
+.controls{
+    font-size:18px !important; /* size of controls */
+    background-image: #fffff3; /* background color of controls */
+    text-align:center;
+    width:100%;
+}
+
+.controls td{
+    padding:8px 5px 0px 5px; /* padding around controls */
+}
+
+.seeking{
+    background-image: #fffff3;
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+}
+
+.current-time{
+    padding-right:5px;
+}
+
+.total-duration{
+    padding-left:5px;
+}
+
+i.fas:hover{
+    cursor:help;
+}
+
+i.fas.fa-pause, i.fas.fa-play, i.fas.fa-forward, i.fas.fa-backward{
+    color: #873b8b;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background-color:#fffff3;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+/* settings for chrome browsers */
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px; /* thickness of seeking track */
+    border-style: double;
+    border-color: #ffb8ee;
+    cursor: help;
+    background: #ffb8ee; /* color of seeking track */
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 10px; /* height of seeking square */
+    width: 10px; /* width of seeking square */
+    border-radius: 5px; /* change to 5px if you want a circle seeker */
+    background: #ffb8ee; /* color of seeker square */
+    cursor: help;
+    -webkit-appearance: none;
+    margin-top: -4.5px; 
+}
+
+/* settings for firefox browsers */
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 2px; /* thickness of seeking track */
+    border-style: double;
+    border-color: #ffb8ee;
+    cursor: help;
+    background: #ffb8ee; /* color of seeking track */
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 10px; /* height of seeking  */
+    width: 10px; /* width of seeking  */
+    border-radius: 5px; 
+    background: #ffb8ee; /* color of seeker */
+    cursor: help;
+    border:none;
+}
+
+
+/* main */
+main {
+    font-family: "knewave", system-ui;
+    background-color: #e6fbff;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+    text-align: center;
+}
+
+/* order - left sidebar is 1, content is 2, and right sidebar is 3! */
+
+*/ #leftSidebar {
+    order: 1;
+}
+
+#rightSidebar {
+    order: 3;
+}
+
+footer {
+    background-color: #ffb8ee;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: "knewave", system-ui;
+}
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 1100px) {
+    #flex {
+        flex-wrap: wrap;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    main {
+        order: 1;
+    }
+
+    #leftSidebar {
+        order: 2;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    #navbar ul {
+        flex-wrap: wrap;
+    }
+}

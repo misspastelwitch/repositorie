@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- links!! -->
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+  <title>
+    Repositorie
+  </title>
+</head>
+
+<body>
+
+<div id="container"><div id="topBar">
+    *⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆*⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆*⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩⋆*</div>
+<div id="headerArea">
+    <div id="header"></div>
+    <nav id="navbar" style="margin-bottom: 10px;">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="https://github.com/misspastelwitch">GitHub</a></li>
+          <li><a href="../pages/travel.html">Travel</a></li>
+          <li><a href="../pages/links.html">useful HTML/CSS/JS links</a></li>
+
+        </ul>
+    </nav>
+</div>
+
+<div id="flex">
+    
+    <main>
+        <h1>Welcome to Repositorie</h1>
+        <p><strong>What have I been up to??</strong></p>
+        <p>At the moment I am working on using Node.js to my websites, so that it can pick data up from databases. 
+            I've also been tinkering with making reactive buttons, search features, and also fun animations. 
+            Hopefully you'll be seeing some on here soon xD
+             I've had a lot of fun with sketching out my ideas lately. </p>
+
+             <img src="/assets/heartwindow.gif"
+             height="200px">
+    </main>
+    
+<aside id="leftSidebar"><h2>Updates</h2>
+<div class="box">
+    <p>Last updated 11/03/25</p>
+    <ul>
+        <li>added songs to the DJ</li>
+        <li>rewrote intro</li>
+        <li>fixed problems with the header
+            (poor usahana had her head cut off!)</li>
+        <img src="/assets/cake.gif"
+        height="50px">
+</div>
+<h2>⋆｡°✩⋆｡°✩⋆｡°✩⋆</h2>
+
+<!-- Repositorie DJ -->
+<h3>°✩Repositorie DJ✩°</h3>
+
+<div class="divzone" style="width: fit-content;">
+    <div id="musicplayer">
+<div>
+  <marquee scrollamount="8" class="songtitle">playing 1 of 4: a.m. 180 - grandaddy (cover by PUP)</marquee>
+</div>
+
+<table class="controls">
+  <tbody><tr>
+      <td>
+          <div class="prev-track" onclick="prevTrack()">
+            <i class="fas fa-backward">
+                <img src="/assets/leftarrow.gif">
+            </i>
+        </div>
+      </td>
+      <td>
+          <div class="playpause-track" onclick="playpauseTrack()">
+            <i class="fas fa-play">
+            </i>
+        </div>
+          <div class="playpause-track" onclick="playpauseTrack()">
+            <i class="fas fa-pause">
+                <img src="/assets/pink.gif">
+            </i>
+        </div>
+      </td>
+      <td>
+          <div class="next-track" onclick="nextTrack()">
+            <i class="fas fa-forward">
+                <img src="/assets/rightarrow.gif">
+            </i>
+        </div>
+      </td>
+  </tr>
+</tbody>
+</table>
+
+<div class="seeking">
+  <div class="current-time">0:00</div>
+
+  <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+
+  <div class="total-duration">3:03</div>
+</div>
+
+<audio id="music" src="https://files.catbox.moe/7n33zw.mp3"></audio> 
+</div>
+</div>
+</aside>
+</div>
+
+
+<footer id="footer" style="margin-top: 10px;">
+    ✧･ﾟ: *✧･ﾟ:*+*:ꔫ:*﹤misspastelwitch,  ̶2008, no wait, 2025 - am i really that old?﹥*:ꔫ:*+ﾟ✧･ﾟ: *✧･ﾟ:*
+</footer>
+</div>
+
+</body>
