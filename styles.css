@@ -138,13 +138,15 @@ body {
 
 /* sidebar */
 aside {
-    width: 200px;
+    width: 250px;
     padding-left: 10px;
+    padding-right: 10px;
     font-size: smaller;
 }
 
 aside.leftSidebar {
     background-color: #fffcde;
+    margin-right: 5%;
 }
 aside.leftleftSidebar {
     margin-right: 5%;
@@ -280,7 +282,52 @@ main {
     font-weight: 300;
 }
 
+/* Travel page */
 
+.innerpop::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: transparent;   
+        }  
+  .innerpop::-webkit-scrollbar {
+      width: 5px;
+  }
+  .innerpop::-webkit-scrollbar-thumb {
+      background-color: #ffb3c8;
+      border: 0px;
+  }
+  .innerpop {
+  width: 180px;
+  height:224px;
+  margin-left: 18px;
+  margin-top:62px;
+  color:#ffffff;
+  font-family: "Silkscreen", sans-serif;
+  font-size:12px; 
+  letter-spacing: 1.5px;
+  line-height: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+    }
+
+  .pop {
+      height: 370px;
+    background-image: url('https://i.ibb.co/5rQBDbY/popdiv.png');
+      overflow:hidden;
+      background-repeat: no-repeat;	 
+      margin-right:auto;
+      margin-left: auto;   
+  } 
+  .innerpop::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background: transparent;   
+        }  
+  .innerpop::-webkit-scrollbar {
+      width: 5px;
+  }
+  .innerpop::-webkit-scrollbar-thumb {
+      background-color: #ffb3c8;
+      border: 0px;
+  }
 /* order - left sidebar is 1, content is 2, and right sidebar is 3! */
 
  #leftleftSidebar {
