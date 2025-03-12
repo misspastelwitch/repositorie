@@ -7,11 +7,18 @@
 }
 
 /* fonts */
-.knewave-regular {
-    font-family: "Knewave", system-ui;
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
   
 .shizuru-regular {
     font-family: "Shizuru", system-ui;
@@ -138,7 +145,7 @@ aside {
 .box {
     background-color: #fff698 ;
     color: #873b8b;
-    font-family: "knewave", system-ui;
+    font-family: "Silkscreen", sans-serif;
     border: 5px solid #ffb8ee;
     padding: 10px;
 }
@@ -157,7 +164,7 @@ aside {
     padding:5px;
     display:block;
     color: #873b8b;
-    font-family: "knewave", system-ui;
+    font-family: "Silkscreen", sans-serif;
 }
 
 .controls{
@@ -246,7 +253,7 @@ input[type=range]::-moz-range-thumb {
 
 /* main */
 main {
-    font-family: "knewave", system-ui;
+    font-family: "Silkscreen", sans-serif;
     background-color: #e6fbff;
     flex: 1;
     padding: 20px;
@@ -270,7 +277,7 @@ footer {
     height: 50px;
     padding: 10px;
     text-align: center;
-    font-family: "knewave", system-ui;
+    font-family: "Silkscreen", sans-serif;
 }
 
 
