@@ -22,6 +22,14 @@ Other websites I was inspired by include:
 # Features I am most proud of
 My favourite features that I have implemented in this website are my media player - the Repositorie DJ on the homepage as well as the popsicle text box on the Travel page.
 Each of these took me quite a while to get right, especially the DJ, but now I don't have to use spotify >:)
+ 
+
+https://github.com/user-attachments/assets/1fcaa333-de0c-479b-972c-0740ceee1cb1
+
+
+
+https://github.com/user-attachments/assets/27cd1706-a4c0-484f-912a-46500c2674ed
+
 
 
 
