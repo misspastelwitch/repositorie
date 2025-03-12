@@ -24,7 +24,10 @@ My favourite features that I have implemented in this website are my media playe
 Each of these took me quite a while to get right, especially the DJ, but now I don't have to use spotify >:)
  
 
-https://github.com/user-attachments/assets/1fcaa333-de0c-479b-972c-0740ceee1cb1
+
+
+https://github.com/user-attachments/assets/625bc13f-8541-4efa-9862-a7589538c15a
+
 
 
 
