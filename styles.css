@@ -148,6 +148,7 @@ aside {
     font-family: "Silkscreen", sans-serif;
     border: 5px solid #ffb8ee;
     padding: 10px;
+    align-content: right;
 }
 
 /* DJ */
@@ -157,6 +158,7 @@ aside {
     background:#fffff3; /* background color of player */
     border:1px solid #ffb8ee; 
     width:160px; /* width of the player */
+    font-family: "Silkscreen", sans-serif;
 
 }
 
@@ -175,7 +177,7 @@ aside {
 }
 
 .controls td{
-    padding:8px 5px 0px 5px; /* padding around controls */
+    padding:8px 5px 0px 5px;
 }
 
 .seeking{
