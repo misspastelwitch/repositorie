@@ -17,7 +17,8 @@ Other websites I was inspired by include:
 - [The Web Design Museum](https://www.webdesignmuseum.org/)
 
 # Design sketches
-
+![image](https://github.com/user-attachments/assets/f919a6dc-d86b-4425-b0c1-b5a24539e440)
+initial sketch for the home page
 
 # Features I am most proud of
 My favourite features that I have implemented in this website are my media player - the Repositorie DJ on the homepage as well as the popsicle text box on the Travel page.
